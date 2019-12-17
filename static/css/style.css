@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Tangerine&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+body {
+  background-color: #0d0119;
+  color: #fff;
+}
+
+p, li {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  color: #6b8590;
+}
+
+strong {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+}
+
+h2, h3, h4 {
+  color: #6cf;
+}
+
+h2 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: lighter;
+  color: #6cf;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h3.title-alternative {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+h4.title-alternative {
+  font-size: 18px;
+}
+
+header p {
+  font-size: 15px;
+  text-align: center;
+  color: #b6c4c4;
+}
+
+.border-blue {
+  border: #6cf 2px solid;
+}
+
+.border-gradient {
+  border: #6cf 2px solid;
+  -moz-border-image: -moz-linear-gradient(top, #FC5C7D 0%, #6A82FB 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #FC5C7D 0%, #6A82FB 100%);
+  border-image: linear-gradient(to bottom, #FC5C7D 0%, #6A82FB 100%);
+  border-image-slice: 1;
+}
+
+.bg-light {
+  background-color: #fff;
+  color: #000;
+}
+
+.bg-darkk {
+  background-color: #0d0119;
+  color: #6b8590;
+}
+
+.bg-darkk strong {
+  color: #6cf;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-icon {
+  border-radius: 100%;
+  border: 1px solid #6cf;
+  padding: 22px;
+  -moz-border-image: -moz-linear-gradient(top, #FC5C7D 0%, #6A82FB 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #FC5C7D 0%, #6A82FB 100%);
+  border-image: linear-gradient(to bottom, #FC5C7D 0%, #6A82FB 100%);
+  border-image-slice: 1;
+}
+
+.bg-yankeesBlue {
+  background-color: #15182a;
+}
+
+.bg-yankeesBlue p, li {
+  font-size: 11px;
+}
+
+.bg-yankeesBlue strong {
+  color: #fff;
+  text-shadow: 0 0 6px #99f;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(31, 32, 65, 0.5) !important;
+}
+
+.fx-light {
+  color: #fff;
+  text-shadow: 0 0 6px #99f;
+}
+
+.icon-img {
+  box-sizing: border-box;
+  width: 125px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+.icon-img img {
+  width: 100%;
+}
+
+.icon-xs {
+  width: 65px;
+}
+
+.text-lg {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #ecf6f6;
+}
+
+#intelligence_artificielle h3, #intelligence_artificielle strong {
+  color: #7CB5F2;
+}
+
+#intelligence_artificielle h2 {
+  color: #FC5C7D;
+}
+
+/*# sourceMappingURL=style.css.map */
